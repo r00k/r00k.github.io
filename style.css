@@ -12,14 +12,19 @@ p {
 }
 
 h1 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   color: #444;
 }
 
-
 h1 a:hover {
   color: #84596B;
+}
+
+h2 { 
+  font-size: 1.2em;
+  text-align: center;
+  color: #333;
 }
 
 a {
@@ -32,33 +37,13 @@ a:hover, .current {
 }
 
 article {
-  padding-bottom: 10px;
+  border-top: 0.25em solid #ddd;
 }
 
 #container {
   width: 90%;
   padding-bottom: 20px;
   margin: 0 auto;
-}
-
-.description {
-  border-top: 0.25em solid #ddd;
-  border-bottom: 0.25em solid #ddd;
-  padding: 1em 0;
-  text-align: center;
-}
-
-.cfp h1 {
-  border-bottom: 0.25em solid #ddd;
-  padding: 0.5em 0;
-}
-
-.cfp h1, .cfp p {
-  text-align: left;
-}
-
-.cfp a.back {
-  font-size: 2em;
 }
 
 .video {
@@ -80,6 +65,7 @@ article {
 
 #navigation {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #avatar img {
@@ -98,6 +84,15 @@ article {
 #navigation {
   margin: 20px 0 0 0;
   font-size: 40px;
+}
+
+/* Talks page */
+h1.headline {
+  margin-bottom: 20px;
+}
+
+p.description {
+  margin-bottom: 10px;
 }
 
 /* Larger screens */

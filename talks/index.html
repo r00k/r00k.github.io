@@ -2,14 +2,56 @@
 layout: default
 ---
 
-{% for post in site.categories.talks %}
-  <article>
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    {{ post.content }}
-  </article>
-{% endfor %}
+<h1 class="headline">My Favorite Talks</h1>
 
-<script>
-  var nav = document.getElementById("talks");
-  nav.className = nav.className + " current";
-</script>
+<article>
+  <h2 class="talk-title">How to Talk to Developers</h2>
+
+  <p class="description">
+  This talk distills several years of public speaking experience into
+  straightforward advice for speakers and teachers.
+
+  When I meet a new person at a conference, it's nearly always this talk that
+  they mention. Make sure to stick around for the finale.
+  </p>
+
+  <p class="video">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/l9JXH7JPjR4"
+    frameborder="0" allowfullscreen></iframe>
+  </p>
+</article>
+
+<article>
+  <h2 class="talk-title">Refactoring from Good to Great</h2>
+
+  <p class="description">
+  This talk marked the beginning of my love-affair with live coding.
+  </p>
+
+  <p class="video">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/DC-pQPq0acs"
+    frameborder="0" allowfullscreen></iframe>
+  </p>
+</article>
+
+<article>
+  <h2 class="talk-title">Write Code Faster: Expert-Level Vim</h2>
+
+  <p class="description">
+  Despite the title, this talk has useful tips for beginners and experts alike.
+  </p>
+
+  <p class="video">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/SkdrYWhh-8s"
+  frameborder="0" allowfullscreen></iframe>
+  </p>
+</article>
+
+<article>
+  <p>You can find even more talks on <a
+    href="http://www.confreaks.com/presenters/780-ben-orenstein">my Confreaks
+  page</a>.</p>
+</article>
+
+
+
