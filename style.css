@@ -70,11 +70,10 @@ hr {
 
 #avatar img {
   width: 80px;
-  border-radius: 100px;
+  border-radius: 70px;
 
   display: block;
   margin: 0 auto;
-  padding-bottom: 15px;
 }
 
 .icon img {
