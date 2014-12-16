@@ -36,7 +36,7 @@ a:hover, .current {
   color: #84596B;
 }
 
-article {
+hr {
   border-top: 0.25em solid #ddd;
 }
 
@@ -94,6 +94,11 @@ h1.headline {
 p.description {
   margin-bottom: 10px;
 }
+
+article.talk {
+  margin-bottom: 120px;
+}
+
 
 /* Larger screens */
 @media (min-width: 710px) {
