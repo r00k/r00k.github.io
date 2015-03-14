@@ -4,8 +4,3 @@ defaults:
       path: "talks"
     values:
       layout: "talk"
-  -
-    scope:
-      path: "cfps"
-    values:
-      layout: "cfp"
