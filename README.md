@@ -1,1 +1,3 @@
-[![](https://github.com/chrishunt/chrishunt.github.com/raw/master/screens/index.png)](http://www.chrishunt.co)
+Code for benorenstein.com.
+
+Forked from the delightful Chris Hunt.
