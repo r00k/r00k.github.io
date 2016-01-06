@@ -111,7 +111,7 @@ article.talk {
 /* Larger screens */
 @media (min-width: 710px) {
   #container {
-    width: 700px;
+    width: 800px;
   }
 
   h1 {
