@@ -32,6 +32,11 @@ a {
   text-decoration: none;
 }
 
+li {
+  margin: 10px;
+  line-height: 32px;
+}
+
 a:hover, .current {
   color: #84596B;
 }
