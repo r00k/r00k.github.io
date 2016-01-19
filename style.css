@@ -78,8 +78,8 @@ hr {
 }
 
 #avatar img {
-  width: 80px;
-  border-radius: 70px;
+  width: 120px;
+  border-radius: 40px;
 
   display: block;
   margin: 0 auto;
@@ -119,7 +119,7 @@ article.talk {
   }
 
   #avatar img {
-    width: 140px;
+    width: 200px;
   }
 
   .icon img {
