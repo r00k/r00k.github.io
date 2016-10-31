@@ -107,10 +107,14 @@ hr {
 .newsletter-form input {
   margin-top: 10px;
   width: 400px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .newsletter-form input[type='submit'] {
   width: 120px;
+  height: 40px;
+  margin-top: -8px;
 }
 
 .newsletter-form textarea {
