@@ -8,7 +8,6 @@ body {
 
 p {
   line-height: 30px;
-  text-align: center;
 }
 
 .small {
@@ -17,7 +16,6 @@ p {
 
 h1 {
   font-size: 1.5em;
-  text-align: center;
   color: #444;
 }
 
@@ -27,7 +25,6 @@ h1 a:hover {
 
 h2 { 
   font-size: 1.2em;
-  text-align: center;
   color: #333;
 }
 
@@ -53,6 +50,10 @@ hr {
   width: 90%;
   padding-bottom: 20px;
   margin: 0 auto;
+}
+
+.centered {
+  text-align: center;
 }
 
 .video {
@@ -93,6 +94,28 @@ hr {
 #navigation {
   margin: 20px 0 0 0;
   font-size: 40px;
+}
+
+.fieldset {
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  margin-top: 50px;
+}
+
+.newsletter-form input {
+  margin-top: 10px;
+  width: 400px;
+}
+
+.newsletter-form input[type='submit'] {
+  width: 120px;
+}
+
+.newsletter-form textarea {
+  margin-top: 10px;
+  width: 400px;
 }
 
 /* Talks page */
