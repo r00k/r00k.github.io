@@ -23,14 +23,13 @@ h1 a:hover {
   color: #84596B;
 }
 
-h2 { 
+h2 {
   font-size: 1.2em;
   color: #333;
 }
 
 a {
   color: #777;
-  text-decoration: none;
 }
 
 li {
