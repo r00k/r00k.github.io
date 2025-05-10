@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-20 px-4 sm:px-6 mb-20 relative rounded-lg overflow-hidden">
+<section class="grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-20 px-4 sm:px-6 md:px-8 mb-20 relative rounded-lg overflow-hidden">
   <div class="ml-0 sm:ml-4 md:ml-10">
     <h1 class="text-4xl md:text-5xl font-bold text-text mb-5 leading-tight">Hi, I'm Ben Orenstein</h1>
     <p class="text-xl text-light-text font-normal mb-8 max-w-lg">Former tech founder, now writing about local politics and good governance.</p>
@@ -13,7 +13,7 @@ layout: default
   <div class="text-center px-6 sm:px-8 md:px-4">
     <img src="/images/new-me.jpg" alt="Ben Orenstein" class="w-full max-w-md mx-auto rounded-normal shadow-normal border-8 border-white" />
   </div>
-  <div class="absolute top-0 left-0 right-0 h-full bg-gradient-to-br from-primary-light to-transparent -z-10 rounded-br-[50%] rounded-lg"></div>
+  <div class="absolute top-0 left-0 right-0 h-full bg-gradient-to-br from-primary-light to-transparent -z-10 rounded-br-[75%] rounded-xl"></div>
 </section>
 
 <section class="my-24">
@@ -23,17 +23,19 @@ layout: default
   </div>
 
   <div class="max-w-3xl">
-    <div class="bg-primary-light p-7 rounded-normal border-l-4 border-primary mb-16">
-      <div class="flex items-center mb-4 justify-between">
-        <h3 class="text-3xl m-0 mb-4 text-primary"><a href="http://date.benorenstein.com/" class="text-primary no-underline transition-colors duration-200 hover:text-accent">Finding a Partner</a></h3>
+    <a href="http://date.benorenstein.com/" class="block no-underline group">
+      <div class="bg-primary-light p-7 rounded-normal border-l-4 border-primary mb-16 transition-all duration-300 hover:shadow-normal">
+        <div class="flex items-center mb-4 justify-between">
+          <h3 class="text-3xl m-0 mb-4 text-primary transition-colors duration-200">Finding a Partner</h3>
+        </div>
+        <p class="text-lg mb-5 text-text">I'm looking for someone smart, funny, and warm who wants to have children.</p>
+        <span class="font-semibold inline-flex items-center text-primary border-b border-transparent transition-all duration-300">Read my date-me doc <i class="ml-1.5 transition-transform duration-200 fas fa-arrow-right group-hover:translate-x-0.5"></i></span>
       </div>
-      <p class="text-lg mb-5">I'm looking for someone smart, funny, and warm who wants to have children.</p>
-      <a href="http://date.benorenstein.com/" class="font-semibold inline-flex items-center text-primary border-b border-transparent transition-all duration-300 hover:text-accent hover:border-b-accent">Read my date-me doc <i class="ml-1.5 transition-transform duration-200 fas fa-arrow-right hover:translate-x-0.5"></i></a>
-    </div>
+    </a>
 
     <div class="mb-16">
       <div class="flex items-center mb-4 justify-between">
-        <h3 class="text-3xl m-0 mb-4 text-primary"><a href="https://somervillebeacon.com" class="text-primary no-underline transition-colors duration-200 hover:text-accent">The Somerville Beacon</a></h3>
+        <h3 class="text-3xl m-0 mb-4 text-primary"><a href="https://somervillebeacon.com" class="text-primary no-underline transition-colors duration-200 hover:text-accent">Writing the Somerville Beacon</a></h3>
       </div>
       <p class="text-lg mb-5">A blog covering local politics and community issues in Somerville, where I investigate and report on matters that impact our community.</p>
       <a href="https://somervillebeacon.com" class="font-semibold inline-flex items-center text-primary border-b border-transparent transition-all duration-300 hover:text-accent hover:border-b-accent">Visit the site <i class="ml-1.5 transition-transform duration-200 fas fa-arrow-right hover:translate-x-0.5"></i></a>
@@ -41,7 +43,7 @@ layout: default
 
     <div class="mb-16">
       <div class="flex items-center mb-4 justify-between">
-        <h3 class="text-3xl m-0 mb-4 text-primary"><a href="https://experimentalpodcast.transistor.fm/" class="text-primary no-underline transition-colors duration-200 hover:text-accent">Experimental Podcast</a></h3>
+        <h3 class="text-3xl m-0 mb-4 text-primary"><a href="https://experimentalpodcast.transistor.fm/" class="text-primary no-underline transition-colors duration-200 hover:text-accent">Recording Experimental Podcast</a></h3>
       </div>
       <p class="text-lg mb-5">Irregular check-ins with my good friend, Andrew Rose. We generally talk about building community, civic engagement, building a tech accelerator in New York City, and moonshot projects.</p>
       <a href="https://experimentalpodcast.transistor.fm/" class="font-semibold inline-flex items-center text-primary border-b border-transparent transition-all duration-300 hover:text-accent hover:border-b-accent">Listen to episodes <i class="ml-1.5 transition-transform duration-200 fas fa-arrow-right hover:translate-x-0.5"></i></a>
@@ -96,19 +98,4 @@ layout: default
     </a>
   </div>
 </section>
-
-<section class="my-24">
-  <div class="mb-8 relative">
-    <h2 class="text-4xl font-bold mb-6 text-text inline-block">About Me</h2>
-    <div class="absolute -bottom-3 left-0 w-16 h-1 bg-primary rounded-full"></div>
-  </div>
-
-  <div class="max-w-3xl bg-gradient-to-br from-gray-50 to-white p-10 rounded-xl shadow-sm border border-gray-100">
-    <p class="text-lg mb-6 leading-relaxed text-gray-700">I spent around a dozen years trying to get really good at programming. That journey culminated in co-founding <a href="https://tuple.app" class="text-primary hover:text-accent font-medium">Tuple</a>, a remote pair programming tool, which went really well thanks to some good fortune. Now, I've shifted my focus to local politics and community advocacy in Somerville, where I run <a href="https://somervillebeacon.com" class="text-primary hover:text-accent font-medium">The Somerville Beacon</a>.</p>
-
-    <p class="text-lg mb-6 leading-relaxed text-gray-700">Throughout my tech career, I've created several successful projects including <a href="https://www.refactoringrails.io" class="text-primary hover:text-accent font-medium">Refactoring Rails</a> and co-created <a href="http://upcase.com" class="text-primary hover:text-accent font-medium">Upcase</a>, <a href="https://www.trailmix.life" class="text-primary hover:text-accent font-medium">Trailmix</a>, and <a href="https://www.briefs.fm" class="text-primary hover:text-accent font-medium">Briefs</a>. The technical skills I developed have given me a strong analytical approach to my current work.</p>
-
-    <p class="text-lg mb-0 leading-relaxed text-gray-700">I'm passionate about sharing knowledge and building community. You can find me hosting the Experimental Podcast, writing on <a href="http://www.benorenstein.com/blog" class="text-primary hover:text-accent font-medium">my blog</a>, or speaking at <a href="/talks" class="text-primary hover:text-accent font-medium">conferences</a> about both tech entrepreneurship and local governance.</p>
-  </div>
 </section>
-

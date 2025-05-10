@@ -8,8 +8,10 @@
     "build:css": "npx tailwindcss -i ./css/tailwind.css -o ./assets/css/main.css",
     "watch:css": "npx tailwindcss -i ./css/tailwind.css -o ./assets/css/main.css --watch",
     "build:jekyll": "bundle exec jekyll build",
-    "watch:jekyll": "bundle exec jekyll serve --livereload",
+    "watch:jekyll": "bundle exec jekyll serve",
+    "livereload": "ruby livereload.rb",
     "dev": "npm-run-all --parallel watch:css watch:jekyll",
+    "dev:live": "npm-run-all --parallel watch:css watch:jekyll livereload",
     "build": "npm-run-all build:css build:jekyll"
   },
   "repository": {
