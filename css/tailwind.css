@@ -1,0 +1,106 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom components using @apply */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center bg-transparent text-primary px-7 py-3.5 font-semibold text-base border border-primary rounded-full my-2.5 mr-3 relative overflow-hidden z-10 transition-all duration-300;
+  }
+  
+  .btn:hover {
+    @apply text-white border-primary bg-primary;
+  }
+  
+  .btn i {
+    @apply ml-2 text-sm transition-transform duration-200;
+  }
+  
+  .btn:hover i {
+    @apply translate-x-0.5;
+  }
+  
+  .btn--primary {
+    @apply bg-primary text-white border-primary;
+  }
+  
+  .btn--primary:hover {
+    @apply bg-transparent text-primary;
+  }
+  
+  .btn--accent {
+    @apply bg-accent text-white border-accent;
+  }
+  
+  .btn--accent:hover {
+    @apply bg-transparent text-accent;
+  }
+  
+  .text-link {
+    @apply font-semibold inline-flex items-center text-primary border-b border-transparent transition-all duration-300;
+  }
+  
+  .text-link i {
+    @apply ml-1.5 transition-transform duration-200;
+  }
+  
+  .text-link:hover {
+    @apply text-accent border-b-accent;
+  }
+  
+  .text-link:hover i {
+    @apply translate-x-0.5;
+  }
+  
+  .work-item {
+    @apply mb-12 pb-10 border-b border-black/5;
+  }
+  
+  .work-item:last-child {
+    @apply border-b-0;
+  }
+  
+  .featured-work-item {
+    @apply bg-primary-light p-7 rounded-normal border-l-4 border-primary mb-16;
+  }
+  
+  .work-item-header {
+    @apply flex items-center mb-4 justify-between;
+  }
+  
+  .work-item h3 {
+    @apply text-3xl m-0 mb-4 text-primary;
+  }
+  
+  .work-item h3 a {
+    @apply text-primary no-underline transition-colors duration-200;
+  }
+  
+  .work-item h3 a:hover {
+    @apply text-accent;
+  }
+  
+  .project-card-link {
+    @apply no-underline text-inherit block h-full;
+  }
+  
+  .project-card {
+    @apply relative bg-card-bg rounded-normal overflow-hidden shadow-normal flex flex-col border border-black/[0.03] p-0 h-full;
+  }
+  
+  .project-content {
+    @apply p-7 flex-grow flex flex-col h-full;
+  }
+  
+  .project-title {
+    @apply text-2xl mt-0 mb-3 clear-both text-primary;
+  }
+  
+  .project-card-link:hover .project-title {
+    @apply text-accent;
+  }
+  
+  .project-desc {
+    @apply text-light-text mb-0 leading-relaxed flex-grow;
+  }
+}

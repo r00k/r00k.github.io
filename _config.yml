@@ -4,3 +4,19 @@ defaults:
       path: "talks"
     values:
       layout: "talk"
+
+# Exclude node_modules and other development files
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - postcss.config.js
+  - css/tailwind.css
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include compiled CSS
+include:
+  - assets

@@ -6,55 +6,54 @@
     <meta name="google-site-verification" content="peDoHitXF-bFy7tQ1acMu98mtYikZe0LaB2FzkhOgrA" />
     <meta name="description" content="Ben Orenstein - Former tech founder now focused on local politics and community advocacy in Somerville through The Somerville Beacon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Preload fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Stylesheets -->
-    <link href="/normalize.css" rel="stylesheet" type="text/css" />
     <link href="/webfonts/ss-social-circle.css" rel="stylesheet" />
-    <link href="/style.css" rel="stylesheet" type="text/css" />
-    
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/images/favicon.ico">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
-  <body>
+  <body class="font-sans text-lg leading-relaxed text-text bg-background">
     <header>
-      <div id="navigation">
-        <a id="avatar" title="@r00k" href="/">
-          <img src="/images/me.jpeg" alt="Ben Orenstein" />
+      <div class="flex justify-between items-center flex-wrap max-w-[1100px] mx-auto py-8 px-5">
+        <a title="@r00k" href="/" class="block text-center">
+          <img src="/images/me.jpeg" alt="Ben Orenstein" class="w-[60px] h-[60px] rounded-full object-cover transition-all duration-300 hover:scale-105" />
         </a>
-        <div class="nav-links">
-          <a title="Twitter" href="http://twitter.com/r00k" class="social-link">
+        <div class="flex justify-center gap-6">
+          <a title="Twitter" href="http://twitter.com/r00k" class="text-2xl text-primary transition-all duration-300 flex items-center justify-center relative hover:text-accent after:content-[''] after:absolute after:bottom-[-5px] after:left-1/2 after:w-0 after:h-0.5 after:bg-accent after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full">
             <i class="fab fa-twitter"></i>
           </a>
-          <a title="Somerville Beacon" href="https://somervillebeacon.com" class="social-link">
+          <a title="Somerville Beacon" href="https://somervillebeacon.com" class="text-2xl text-primary transition-all duration-300 flex items-center justify-center relative hover:text-accent after:content-[''] after:absolute after:bottom-[-5px] after:left-1/2 after:w-0 after:h-0.5 after:bg-accent after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full">
             <i class="fas fa-newspaper"></i>
           </a>
-          <a title="GitHub" href="https://github.com/r00k" class="social-link">
+          <a title="GitHub" href="https://github.com/r00k" class="text-2xl text-primary transition-all duration-300 flex items-center justify-center relative hover:text-accent after:content-[''] after:absolute after:bottom-[-5px] after:left-1/2 after:w-0 after:h-0.5 after:bg-accent after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full">
             <i class="fab fa-github"></i>
           </a>
-          <a title="Talks" href="/talks" class="social-link">
+          <a title="Talks" href="/talks" class="text-2xl text-primary transition-all duration-300 flex items-center justify-center relative hover:text-accent after:content-[''] after:absolute after:bottom-[-5px] after:left-1/2 after:w-0 after:h-0.5 after:bg-accent after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full">
             <i class="fas fa-microphone-alt"></i>
           </a>
-          <a title="Email" href="mailto:ben@benorenstein.com" class="social-link">
+          <a title="Email" href="mailto:ben@benorenstein.com" class="text-2xl text-primary transition-all duration-300 flex items-center justify-center relative hover:text-accent after:content-[''] after:absolute after:bottom-[-5px] after:left-1/2 after:w-0 after:h-0.5 after:bg-accent after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full">
             <i class="fas fa-envelope"></i>
           </a>
         </div>
       </div>
     </header>
 
-    <main id="container">
+    <main class="max-w-[1100px] mx-auto px-5 pb-10">
       {{ content }}
     </main>
-    
-    <footer>
-      <div class="container">
+
+    <footer class="text-center py-10 mt-24 text-light-text border-t border-black/5 bg-primary-light">
+      <div class="max-w-[1100px] mx-auto px-5">
         <p>&copy; 2023 Ben Orenstein. All rights reserved.</p>
       </div>
     </footer>

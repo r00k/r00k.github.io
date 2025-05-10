@@ -2,92 +2,113 @@
 layout: default
 ---
 
-<section class="hero">
-  <div class="hero-content">
-    <h1>Hi, I'm Ben Orenstein</h1>
-    <p>Former tech founder, now writing about local politics and good governance.</p>
-    <div class="hero-buttons">
+<section class="grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-20 px-4 sm:px-6 mb-20 relative rounded-lg overflow-hidden">
+  <div class="ml-0 sm:ml-4 md:ml-10">
+    <h1 class="text-4xl md:text-5xl font-bold text-text mb-5 leading-tight">Hi, I'm Ben Orenstein</h1>
+    <p class="text-xl text-light-text font-normal mb-8 max-w-lg">Former tech founder, now writing about local politics and good governance.</p>
+    <div class="flex flex-wrap">
       <a href="https://somervillebeacon.com" class="btn btn--primary">Read The Somerville Beacon <i class="fas fa-arrow-right"></i></a>
     </div>
   </div>
-  <div class="hero-image">
-    <img src="/images/new-me.jpg" alt="Ben Orenstein" />
+  <div class="text-center px-6 sm:px-8 md:px-4">
+    <img src="/images/new-me.jpg" alt="Ben Orenstein" class="w-full max-w-md mx-auto rounded-normal shadow-normal border-8 border-white" />
+  </div>
+  <div class="absolute top-0 left-0 right-0 h-full bg-gradient-to-br from-primary-light to-transparent -z-10 rounded-br-[50%] rounded-lg"></div>
+</section>
+
+<section class="my-24">
+  <div class="mb-12 relative">
+    <h2 class="text-4xl font-bold mb-4 text-text inline-block">Current Focus</h2>
+    <p class="text-light-text max-w-2xl mt-0">How I'm currently spending my time and energy.</p>
+  </div>
+
+  <div class="max-w-3xl">
+    <div class="bg-primary-light p-7 rounded-normal border-l-4 border-primary mb-16">
+      <div class="flex items-center mb-4 justify-between">
+        <h3 class="text-3xl m-0 mb-4 text-primary"><a href="http://date.benorenstein.com/" class="text-primary no-underline transition-colors duration-200 hover:text-accent">Finding a Partner</a></h3>
+      </div>
+      <p class="text-lg mb-5">I'm looking for someone smart, funny, and warm who wants to have children.</p>
+      <a href="http://date.benorenstein.com/" class="font-semibold inline-flex items-center text-primary border-b border-transparent transition-all duration-300 hover:text-accent hover:border-b-accent">Read my date-me doc <i class="ml-1.5 transition-transform duration-200 fas fa-arrow-right hover:translate-x-0.5"></i></a>
+    </div>
+
+    <div class="mb-16">
+      <div class="flex items-center mb-4 justify-between">
+        <h3 class="text-3xl m-0 mb-4 text-primary"><a href="https://somervillebeacon.com" class="text-primary no-underline transition-colors duration-200 hover:text-accent">The Somerville Beacon</a></h3>
+      </div>
+      <p class="text-lg mb-5">A blog covering local politics and community issues in Somerville, where I investigate and report on matters that impact our community.</p>
+      <a href="https://somervillebeacon.com" class="font-semibold inline-flex items-center text-primary border-b border-transparent transition-all duration-300 hover:text-accent hover:border-b-accent">Visit the site <i class="ml-1.5 transition-transform duration-200 fas fa-arrow-right hover:translate-x-0.5"></i></a>
+    </div>
+
+    <div class="mb-16">
+      <div class="flex items-center mb-4 justify-between">
+        <h3 class="text-3xl m-0 mb-4 text-primary"><a href="https://experimentalpodcast.transistor.fm/" class="text-primary no-underline transition-colors duration-200 hover:text-accent">Experimental Podcast</a></h3>
+      </div>
+      <p class="text-lg mb-5">Irregular check-ins with my good friend, Andrew Rose. We generally talk about building community, civic engagement, building a tech accelerator in New York City, and moonshot projects.</p>
+      <a href="https://experimentalpodcast.transistor.fm/" class="font-semibold inline-flex items-center text-primary border-b border-transparent transition-all duration-300 hover:text-accent hover:border-b-accent">Listen to episodes <i class="ml-1.5 transition-transform duration-200 fas fa-arrow-right hover:translate-x-0.5"></i></a>
+    </div>
   </div>
 </section>
 
-<section class="work-section">
-  <div class="section-header">
-    <h2 class="section-title">Current Work</h2>
-    <p class="section-subtitle">Here's what I'm currently focused on and passionate about.</p>
+<section class="my-24">
+  <div class="mb-12 relative">
+    <h2 class="text-4xl font-bold mb-4 text-text inline-block">Previous Projects</h2>
+    <p class="text-light-text max-w-2xl mt-0">A few highlights from my previous chapter in the tech industry.</p>
   </div>
 
-  <div class="work-content">
-    <div class="work-item featured-work-item">
-      <div class="work-item-header">
-        <h3><a href="http://date.benorenstein.com/">Finding a Partner</a></h3>
-      </div>
-      <p>I'm looking for someone smart, funny, and warm who wants to have children.</p>
-      <a href="http://date.benorenstein.com/" class="text-link">Read my date-me doc <i class="fas fa-arrow-right"></i></a>
-    </div>
-
-    <div class="work-item">
-      <div class="work-item-header">
-        <h3><a href="https://somervillebeacon.com">The Somerville Beacon</a></h3>
-      </div>
-      <p>A blog covering local politics and community issues in Somerville, where I investigate and report on matters that impact our community.</p>
-      <a href="https://somervillebeacon.com" class="text-link">Visit the site <i class="fas fa-arrow-right"></i></a>
-    </div>
-
-    <div class="work-item">
-      <h3><a href="https://experimentalpodcast.transistor.fm/">Experimental Podcast</a></h3>
-      <p>Irregular check-ins with my good friend, Andrew Rose. We generally talk about building community, civic engagement, building a tech accelerator in New York City, and moonshot projects.</p>
-      <a href="https://experimentalpodcast.transistor.fm/" class="text-link">Listen to episodes <i class="fas fa-arrow-right"></i></a>
-    </div>
-  </div>
-</section>
-
-<section class="projects-section">
-  <div class="section-header">
-    <h2 class="section-title">Previous Projects</h2>
-    <p class="section-subtitle">A few highlights from my previous chapter in the tech industry.</p>
-  </div>
-
-  <div class="projects-list">
-    <a href="https://tuple.app" class="project-card-link">
-      <div class="project-card">
-        <div class="project-content">
-          <h3 class="project-title">Tuple</h3>
-          <p class="project-desc">A remote pair programming tool for macOS that I co-founded and led as CEO, designed specifically for developers.</p>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+    <a href="https://tuple.app" class="no-underline text-inherit block h-full group">
+      <div class="relative bg-card-bg rounded-lg overflow-hidden shadow-md flex flex-col border border-black/[0.08] p-0 h-full transition-all duration-300 hover:shadow-lg hover:translate-y-[-3px]">
+        <div class="h-2 bg-gradient-to-r from-primary to-accent"></div>
+        <div class="p-8 flex-grow flex flex-col h-full">
+          <h3 class="text-2xl mt-0 mb-4 clear-both text-primary transition-colors duration-200 group-hover:text-accent">Tuple</h3>
+          <p class="text-light-text mb-0 leading-relaxed flex-grow">A remote pair programming tool for macOS that I co-founded and led as CEO, designed specifically for developers.</p>
+          <div class="mt-4 text-primary text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center">
+            Check it out <i class="ml-1.5 fas fa-arrow-right text-xs"></i>
+          </div>
         </div>
       </div>
     </a>
 
-    <a href="http://artofproductpodcast.com" class="project-card-link">
-      <div class="project-card">
-        <div class="project-content">
-          <h3 class="project-title">Art of Product Podcast</h3>
-          <p class="project-desc">A podcast I co-hosted discussing the business of software products and sharing insights from my experience as an entrepreneur.</p>
+    <a href="http://artofproductpodcast.com" class="no-underline text-inherit block h-full group">
+      <div class="relative bg-card-bg rounded-lg overflow-hidden shadow-md flex flex-col border border-black/[0.08] p-0 h-full transition-all duration-300 hover:shadow-lg hover:translate-y-[-3px]">
+        <div class="h-2 bg-gradient-to-r from-primary to-accent"></div>
+        <div class="p-8 flex-grow flex flex-col h-full">
+          <h3 class="text-2xl mt-0 mb-4 clear-both text-primary transition-colors duration-200 group-hover:text-accent">Art of Product Podcast</h3>
+          <p class="text-light-text mb-0 leading-relaxed flex-grow">A podcast I co-hosted discussing the business of software products and sharing insights from my experience as an entrepreneur.</p>
+          <div class="mt-4 text-primary text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center">
+            Check it out <i class="ml-1.5 fas fa-arrow-right text-xs"></i>
+          </div>
         </div>
       </div>
     </a>
 
-    <a href="https://www.refactoringrails.io" class="project-card-link">
-      <div class="project-card">
-        <div class="project-content">
-          <h3 class="project-title">Refactoring Rails</h3>
-          <p class="project-desc">My comprehensive video course on writing better Ruby on Rails code, with practical techniques for improving existing applications.</p>
+    <a href="https://www.refactoringrails.io" class="no-underline text-inherit block h-full group">
+      <div class="relative bg-card-bg rounded-lg overflow-hidden shadow-md flex flex-col border border-black/[0.08] p-0 h-full transition-all duration-300 hover:shadow-lg hover:translate-y-[-3px]">
+        <div class="h-2 bg-gradient-to-r from-primary to-accent"></div>
+        <div class="p-8 flex-grow flex flex-col h-full">
+          <h3 class="text-2xl mt-0 mb-4 clear-both text-primary transition-colors duration-200 group-hover:text-accent">Refactoring Rails</h3>
+          <p class="text-light-text mb-0 leading-relaxed flex-grow">My comprehensive video course on writing better Ruby on Rails code, with practical techniques for improving existing applications.</p>
+          <div class="mt-4 text-primary text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center">
+            Check it out <i class="ml-1.5 fas fa-arrow-right text-xs"></i>
+          </div>
         </div>
       </div>
     </a>
   </div>
 </section>
 
-<section class="card">
-  <h2>About Me</h2>
-  <p>After a successful career building tech companies, I've shifted my focus to local politics and community advocacy in Somerville. Currently, I'm running <a href="https://somervillebeacon.com">The Somerville Beacon</a>, a blog dedicated to covering important local issues that affect our community.</p>
+<section class="my-24">
+  <div class="mb-8 relative">
+    <h2 class="text-4xl font-bold mb-6 text-text inline-block">About Me</h2>
+    <div class="absolute -bottom-3 left-0 w-16 h-1 bg-primary rounded-full"></div>
+  </div>
 
-  <p>In my previous chapter, I founded and led several successful tech companies, including <a href="https://tuple.app">Tuple</a>, a remote pair programming tool. I also created <a href="https://www.refactoringrails.io">Refactoring Rails</a> and co-created <a href="http://upcase.com">Upcase</a>, <a href="https://www.trailmix.life">Trailmix</a>, and <a href="https://www.briefs.fm">Briefs</a>.</p>
+  <div class="max-w-3xl bg-gradient-to-br from-gray-50 to-white p-10 rounded-xl shadow-sm border border-gray-100">
+    <p class="text-lg mb-6 leading-relaxed text-gray-700">I spent around a dozen years trying to get really good at programming. That journey culminated in co-founding <a href="https://tuple.app" class="text-primary hover:text-accent font-medium">Tuple</a>, a remote pair programming tool, which went really well thanks to some good fortune. Now, I've shifted my focus to local politics and community advocacy in Somerville, where I run <a href="https://somervillebeacon.com" class="text-primary hover:text-accent font-medium">The Somerville Beacon</a>.</p>
 
-  <p>I'm passionate about sharing knowledge and building community. You can find me hosting the Experimental Podcast, writing on <a href="http://www.benorenstein.com/blog">my blog</a>, or speaking at <a href="/talks">conferences</a> about both tech entrepreneurship and local governance.</p>
+    <p class="text-lg mb-6 leading-relaxed text-gray-700">Throughout my tech career, I've created several successful projects including <a href="https://www.refactoringrails.io" class="text-primary hover:text-accent font-medium">Refactoring Rails</a> and co-created <a href="http://upcase.com" class="text-primary hover:text-accent font-medium">Upcase</a>, <a href="https://www.trailmix.life" class="text-primary hover:text-accent font-medium">Trailmix</a>, and <a href="https://www.briefs.fm" class="text-primary hover:text-accent font-medium">Briefs</a>. The technical skills I developed have given me a strong analytical approach to my current work.</p>
+
+    <p class="text-lg mb-0 leading-relaxed text-gray-700">I'm passionate about sharing knowledge and building community. You can find me hosting the Experimental Podcast, writing on <a href="http://www.benorenstein.com/blog" class="text-primary hover:text-accent font-medium">my blog</a>, or speaking at <a href="/talks" class="text-primary hover:text-accent font-medium">conferences</a> about both tech entrepreneurship and local governance.</p>
+  </div>
 </section>
 
