@@ -2,3 +2,5 @@
 .DS_Store
 _site
 .bundle
+
+**/.claude/settings.local.json

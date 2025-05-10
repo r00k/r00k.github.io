@@ -1,62 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Ben Orenstein's Personal Site</title>
+    <title>Ben Orenstein - Former Tech Founder, Local Politics & Community Advocate</title>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta name="google-site-verification" content="peDoHitXF-bFy7tQ1acMu98mtYikZe0LaB2FzkhOgrA" />
-
-    <meta name='viewport'
-          content='user-scalable=yes,
-                   width=device-width,
-                   initial-scale=1' >
-
-    <link href="../../../../normalize.css" rel="stylesheet" type="text/css" />
-    <link href="../../../../webfonts/ss-social-circle.css" rel="stylesheet" />
-    <link href="../../../../style.css" rel="stylesheet" type="text/css" />
-
-    <link rel="icon"
-          type="image/png"
-          href="/images/favicon.ico">
+    <meta name="description" content="Ben Orenstein - Former tech founder now focused on local politics and community advocacy in Somerville through The Somerville Beacon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link href="/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="/webfonts/ss-social-circle.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
-    <!-- TODO: why are these being blocked by adblock? -->
-    <div id="navigation">
-      <a id="avatar"
-         title="@r00k"
-         href="/">
-         <img src="/images/me.jpeg" alt="Ben Orenstein" />
-      </a>
-      <a title="twitter"
-         href="http://twitter.com/r00k"
-         class="ss-icon ss-social-circle">
-         twitter
-      </a>
-      <a title="blog"
-         href="http://www.benorenstein.com/blog"
-         class="ss-icon ss-social-circle">
-         rss
-      </a>
-      <a title="github"
-         href="https://github.com/r00k"
-         class="ss-icon ss-social-circle">
-         githuboctocat
-      </a>
-      <a title="talks"
-         href="/talks"
-         id="talks"
-         class="ss-icon ss-social-circle">
-         thumbsup
-      </a>
-      <a title="email"
-         href="mailto:ben.orenstein@gmail.com"
-         class="ss-icon ss-social-circle">
-         email
-      </a>
-    </div>
+    <header>
+      <div id="navigation">
+        <a id="avatar" title="@r00k" href="/">
+          <img src="/images/me.jpeg" alt="Ben Orenstein" />
+        </a>
+        <div class="nav-links">
+          <a title="Twitter" href="http://twitter.com/r00k" class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a title="Somerville Beacon" href="https://somervillebeacon.com" class="social-link">
+            <i class="fas fa-newspaper"></i>
+          </a>
+          <a title="GitHub" href="https://github.com/r00k" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a title="Talks" href="/talks" class="social-link">
+            <i class="fas fa-microphone-alt"></i>
+          </a>
+          <a title="Email" href="mailto:ben@benorenstein.com" class="social-link">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </header>
 
-    <div id='container'>
+    <main id="container">
       {{ content }}
-    </div>
+    </main>
+    
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Ben Orenstein. All rights reserved.</p>
+      </div>
+    </footer>
 
     <!-- Drip -->
     <script type="text/javascript">
@@ -72,5 +73,8 @@
         s.parentNode.insertBefore(dc, s);
       })();
     </script>
+
+    <!-- Live Reload -->
+    <script src="/live-reload.js"></script>
   </body>
 </html>
