@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Ben Orenstein's Personal Site</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta name="google-site-verification" content="peDoHitXF-bFy7tQ1acMu98mtYikZe0LaB2FzkhOgrA" />
+    <meta name="description" content="Ben Orenstein's Public Dating Profile - Looking for someone smart, funny, and warm who wants to have children.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="/webfonts/ss-social-circle.css" rel="stylesheet" />
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body class="font-sans text-lg leading-relaxed text-text bg-background">
+    <main class="max-w-[1100px] mx-auto px-8 sm:px-10 md:px-12 lg:px-16 pb-10">
+      {{ content }}
+    </main>
+
+    <!-- Live Reload -->
+    <script src="/live-reload.js"></script>
+  </body>
+</html>
